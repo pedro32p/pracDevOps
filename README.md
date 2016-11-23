@@ -1,4 +1,4 @@
-La práctica esta desplegada en la siguiente url: [http://ec2-54-212-243-167.us-west-2.compute.amazonaws.com/]
+La práctica esta desplegada en la siguiente url: http://ec2-54-212-243-167.us-west-2.compute.amazonaws.com/
 
 # NodePop
 
