@@ -1,4 +1,4 @@
-La pr√°ctica esta desplegada en la siguiente url: http://ec2-54-212-243-167.us-west-2.compute.amazonaws.com/
+La pr·ctica esta desplegada en la siguiente url: http://ec2-54-212-243-167.us-west-2.compute.amazonaws.com/
 
 # NodePop
 
@@ -12,7 +12,7 @@ Api for the iOS/Android apps.
 
 ### Configure  
 
-Review models/db.js to set database configuration
+Review lib/connectMongoose.js to set database configuration
 
 ### Init database
 
