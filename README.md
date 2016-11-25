@@ -111,7 +111,7 @@ venta: {bool} filter by venta or not
 precio: {range} filter by price range, examples 10-90, -90, 10-   
 nombre: {string} filter names beginning with the string  
 
-Input query example: ?start=0&limit=2&sort=precio&includeTotal=true&tag=mobile&venta=true&precio=-90&nombre=bi
+Input query example: ?start=0&limit=2&sort=precio&includeTotal=true&tag=mobile&venta=false&precio=-90&nombre=ip
 
 **Result:** 
 
@@ -120,7 +120,7 @@ Input query example: ?start=0&limit=2&sort=precio&includeTotal=true&tag=mobile&v
       "result": {
         "rows": [
           {
-            "_id": "55fd9abda8cd1d9a240c8230",
+            "_id": "5833471bfe2d3951eb9a852f",
             "nombre": "iPhone 3GS",
             "venta": false,
             "precio": 50,
@@ -132,9 +132,11 @@ Input query example: ?start=0&limit=2&sort=precio&includeTotal=true&tag=mobile&v
             ]
           }
         ],
-        "total": 1
+        "total": 2
       }
     }
+
+}
 
 
 ### GET /anuncios/tags
